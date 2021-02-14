@@ -38,6 +38,7 @@ function computerPlay(min, max){
 }
 
 function playerSelection()
+    prompt("Rock, Paper, Scissors", "ingrese su jugada aquí")
 
 function playRound(){
     if (computerPlay() === 1){
@@ -50,3 +51,4 @@ function playRound(){
             paper;
         }
             }
+    playerSelection()
